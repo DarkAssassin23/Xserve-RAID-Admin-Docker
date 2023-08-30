@@ -1,0 +1,10 @@
+version: "3"
+services:
+  raid_admin:
+    image: raid_admin
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    ports: 
+      - 5900:5900
