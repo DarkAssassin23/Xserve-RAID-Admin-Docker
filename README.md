@@ -6,6 +6,10 @@ tool without having to install ancient versions of Java or use an outdated OS.
 <img src="screenshots/Xserve_RAID_Docker.jpg" alt="Web interface" width="100%" />
 
 ________________
+
+## System Requirements
+ * x86_64-based CPU
+
 ## Using Docker Compose
 To build and/or run the Docker container, simply run the following command:
 ```bash
